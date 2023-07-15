@@ -1,0 +1,49 @@
+.card-final{
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:15px;
+    background-color: #ccc;
+    border-radius: 15px;
+    gap:10px;
+}
+
+
+.rightAnswers{
+    text-align: center;
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    align-items: center;
+}
+.rightAnswers p{
+    width:100%;
+    padding:9px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.correct-answered{
+    background-color: blue;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 800;
+}
+.correct{
+    background-color: blue;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.failed{
+    background-color: rgb(222, 6, 6);
+    color:#fff;
+    font-size: 18px;
+    font-weight: 800;
+}
+

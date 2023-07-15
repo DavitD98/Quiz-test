@@ -1,0 +1,36 @@
+
+.card{
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
+.answers{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+}
+
+.answers li{
+    cursor: pointer;
+    padding:15px 30px;
+    width:100%;
+    border:2px solid #ccc;
+    text-align: center;
+    border-radius:12px;
+    font-size:20px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.answers li:hover{
+    background-color: rgb(117, 116, 116);
+    color:#fff;
+
+}
+.answers li:active{
+    background-color: blue;
+}
